@@ -12,4 +12,8 @@ public class PriceAdapter {
     public void setDecimalValue(double decimalValue) {
         this.value = (int) (decimalValue * 100);
     }
+
+    public int getStoredValue() {
+        return this.value;
+    }
 }
