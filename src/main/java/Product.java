@@ -22,4 +22,8 @@ public class Product {
     public void setPrice(double price) {
         this.price.setDecimalValue(price);
     }
+
+    public int getStoredPrice() {
+        return price.getStoredValue();
+    }
 }
